@@ -23,7 +23,7 @@ class Kohana_Whois
 		return Kohana_Whois::$_instance;
 	}
 
-	public function test($domain)
+	public function Lookup($domain)
 	{
 		return $this->_whois->Lookup($domain);
 	}
