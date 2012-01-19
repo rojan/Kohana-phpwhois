@@ -13,5 +13,3 @@ Usage
 <blockquote>Kohana_Whois::instance()->lookup('google.com');</blockquote>
 
 This will return an array of raw whois query.
-
-

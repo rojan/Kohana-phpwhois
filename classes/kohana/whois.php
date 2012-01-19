@@ -7,7 +7,7 @@
 class Kohana_Whois
 {
 	protected $_whois;
-	protected static $_instance
+	protected static $_instance;
 
 	protected function __construct()
 	{
