@@ -16,7 +16,9 @@ Download phpwhois and place it to the vendor folder. Change the folder name to '
 Kohana::modules(array(
 	'whois' => MODPATH.'kohana-whois'
 ));
+</pre>
 
+<pre>
 /*This will return an array of raw whois query.*/
 Kohana_Whois::instance()->lookup('google.com'); 
 </pre>
