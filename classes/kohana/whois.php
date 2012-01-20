@@ -1,9 +1,9 @@
 <?php defined('SYSPATH') OR die('No direct access allowed.');
 /**
- * Kohana-whois is the wrapper for phpwhois library.
+ * Kohana-phpwhois is the wrapper for phpwhois library.
  * find the latest version of phpwhois at http://sourceforge.net/projects/phpwhois/
  *
- * @package kohana-whois
+ * @package kohana-phpwhois
  * @author Rojan <rojansinha@gmail.com>
  * @copyright (c) 2012 Rojan Sinha
  * @license MIT
