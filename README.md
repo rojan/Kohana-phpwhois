@@ -9,7 +9,13 @@ Find latest version of phpwhois [here] (http://sourceforge.net/projects/phpwhois
 
 Usage
 ---
+Download phpwhois and place it to the vendor folder. Change the folder name to 'phpwhois'.
 
-<blockquote>Kohana_Whois::instance()->lookup('google.com');</blockquote>
+Enable module in bootstrap file.
+<blockquote>
+Kohana::modules(array(
+	'whois' => MODPATH.'kohana-whois'
+));
+</blockquote>
 
-This will return an array of raw whois query.
+<blockquote>Kohana_Whois::instance()->lookup('google.com');</blockquote> (This will return an array of raw whois query.)
