@@ -11,11 +11,12 @@ Usage
 ---
 Download phpwhois and place it to the vendor folder. Change the folder name to 'phpwhois'.
 
-Enable module in bootstrap file.
-<blockquote>
+<pre>
+/*Enable module in bootstrap file.*/
 Kohana::modules(array(
 	'whois' => MODPATH.'kohana-whois'
 ));
-</blockquote>
 
-<blockquote>Kohana_Whois::instance()->lookup('google.com');</blockquote> (This will return an array of raw whois query.)
+/*This will return an array of raw whois query.*/
+Kohana_Whois::instance()->lookup('google.com'); 
+</pre>
