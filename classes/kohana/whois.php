@@ -33,12 +33,13 @@ class Kohana_Whois
 	 * Domain lookup
 	 *
 	 * @param	string	Domain name
+	 * @param	boolen	check utf-8 domains
 	 * @return	array	raw whois query
 	 *
 	 */
-	public function Lookup($domain)
+	public function Lookup($domain, $is_utf = true)
 	{
-		return $this->_whois->Lookup($domain);
+		return $this->_whois->Lookup($domain, $is_utf);
 	}
 }
 ?>
