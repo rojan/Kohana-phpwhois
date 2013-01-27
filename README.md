@@ -5,7 +5,7 @@ About
 ---
 This is the phpwhois wrapper made for kohana. Compatible with 3.3 version. For 3.2 use 3.2 tag.
 
-There are some warning message while teting with php 5.4 in its main library (phpwhois [here](http://sourceforge.net/projects/phpwhois/)). I hope it get fix in upcomming version. 
+There are some warning message while teting with php 5.4 in its main library ([phpwhois](http://sourceforge.net/projects/phpwhois/)). I hope it get fix in upcomming version. 
 
 Find latest version of phpwhois [here] (http://sourceforge.net/projects/phpwhois/).
 
